@@ -68,6 +68,7 @@ while (seguir == "SI") {
         alert("Usted adquirio el " + anilloA.nombre);
         anilloA.cantidad--;
         saldo = saldo - anilloA.precio;
+        console.log(anilloA);
       } else {
         if (saldo < anilloA.precio) {
           alert("Saldo insuficiente para comprar este articulo");
@@ -82,6 +83,7 @@ while (seguir == "SI") {
         alert("Usted adquirio el " + anilloB.nombre);
         anilloB.cantidad--;
         saldo = saldo - anilloB.precio;
+        console.log(anilloB);
       } else {
         if (saldo < anilloB.precio) {
           alert("Saldo insuficiente para comprar este articulo");
@@ -96,6 +98,7 @@ while (seguir == "SI") {
         alert("Usted adquirio el " + anilloC.nombre);
         anilloC.cantidad--;
         saldo = saldo - anilloC.precio;
+        console.log(anilloC);
       } else {
         if (saldo < anilloC.precio) {
           alert("Saldo insuficiente para comprar este articulo");
@@ -109,6 +112,7 @@ while (seguir == "SI") {
         alert("Usted adquirio el " + aroA.nombre);
         aroA.cantidad--;
         saldo = saldo - aroA.precio;
+        console.log(aroA);
       } else {
         if (saldo < aroA.precio) {
           alert("Saldo insuficiente para comprar este articulo");
@@ -122,6 +126,7 @@ while (seguir == "SI") {
         alert("Usted adquirio el " + aroB.nombre);
         aroB.cantidad--;
         saldo = saldo - aroB.precio;
+        console.log(aroB);
       } else {
         if (saldo < aroB.precio) {
           alert("Saldo insuficiente para comprar este articulo");
@@ -135,6 +140,7 @@ while (seguir == "SI") {
         alert("Usted adquirio el " + aroC.nombre);
         aroC.cantidad--;
         saldo = saldo - aroC.precio;
+        console.log(aroC);
       } else {
         if (saldo < aroC.precio) {
           alert("Saldo insuficiente para comprar este articulo");
@@ -148,6 +154,7 @@ while (seguir == "SI") {
         alert("Usted adquirio el " + collarA.nombre);
         collarA.cantidad--;
         saldo = saldo - collarA.precio;
+        console.log(collarA);
       } else {
         if (saldo < collarA.precio) {
           alert("Saldo insuficiente para comprar este articulo");
@@ -161,6 +168,7 @@ while (seguir == "SI") {
         alert("Usted adquirio el " + collarB.nombre);
         collarB.cantidad--;
         saldo = saldo - collarB.precio;
+        console.log(collarB);
       } else {
         if (saldo < collarB.precio) {
           alert("Saldo insuficiente para comprar este articulo");
@@ -174,6 +182,7 @@ while (seguir == "SI") {
         alert("Usted adquirio el " + pulseraA.nombre);
         pulseraA.cantidad--;
         saldo = saldo - pulseraA.precio;
+        console.log(pulseraA);
       } else {
         if (saldo < pulseraA.precio) {
           alert("Saldo insuficiente para comprar este articulo");
@@ -187,6 +196,7 @@ while (seguir == "SI") {
         alert("Usted adquirio el " + pulseraB.nombre);
         pulseraB.cantidad--;
         saldo = saldo - pulseraB.precio;
+        console.log(pulseraB);
       } else {
         if (saldo < pulseraB.precio) {
           alert("Saldo insuficiente para comprar este articulo");
